@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+
+    <title>UI 2</title>
+    <script>
+        
+    </script>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row ">
+            <div class="col-5 mx-auto">
+            </br>
+                <h4>This is the listing page to index UI-2.</h4>
+            </br>
+            </div>
+        </div>
+        <div class="row">
+
+            <div class="col-5 mx-auto">
+                <div class="list-group" id="listDiv">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function(){
+            var pages = {
+            object: [{
+                    title: "Signup Page",
+                    fileName: "page2.html"
+                },
+                {
+                    title: "Signup Page 2",
+                    fileName: "page3.html"
+                },
+                {
+                    title: "Theme Selection",
+                    fileName: "page4.html"
+                },
+                {
+                    title: "Topic Recomendations",
+                    fileName: "page5.html"
+                },
+                {
+                    title: "Signup Success",
+                    fileName: "page6.html"
+                },
+                {
+                    title: "Login",
+                    fileName: "page7.html"
+                },
+                {
+                    title: "Timeline - Signed in",
+                    fileName: "page8.html"
+                },
+                {
+                    title: "Timeline - Not Signed in",
+                    fileName: "page9.html"
+                },
+                {
+                    title: "People List",
+                    fileName: "page11.html"
+                },
+                {
+                    title: "Contributions",
+                    fileName: "page13.html"
+                },
+                {
+                    title: "New View",
+                    fileName: "page14.html"
+                },
+                {
+                    title: "New View Theme",
+                    fileName: "page15.html"
+                }
+            ]
+        };
+
+        var $ul = $('#listDiv');
+
+        for (var i = 0; i < pages.object.length; i++) {
+            var newEle = $('<a class="list-group-item list-group-item-action">lolo</a>')    
+                .attr("href", pages.object[i].fileName)
+                .text(pages.object[i].title);
+
+            $ul.append(newEle);
+        }
+        });
+    </script>
+</body>
+
+</html>
