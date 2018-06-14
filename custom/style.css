@@ -1,0 +1,429 @@
+
+/* menu bg color : #713886*/
+
+/********* menu *********/
+.menu .navbar-default{
+    background-color: #713886;
+    border:none;
+    border-radius: 0px;
+}
+.menu .navbar-default .navbar-toggle .icon-bar{
+    background-color: #fff;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus{
+    background-color: #350e43;
+}
+.navbar-brand.kbin_logo,
+.navbar-brand.kbin_logo:hover,
+.navbar-brand.kbin_logo:focus
+{
+    background-color: #350e43;
+    font-weight: 600;
+    color: #d25fa4;
+    letter-spacing: 0.8px;
+    line-height: 18px;
+}
+.navbar-brand.kbin_logo span{
+    color: #fff;
+}
+.nav.navbar-nav.kbin_smalltext{
+    padding: 15px;
+    color: #fff;
+    font-size: 12px;
+    letter-spacing: 0.8px;
+    display: inline-block;
+}
+.nav.navbar-nav.navbar-right.login_menu li a{
+    color: #fff;
+}
+/********* login page *********/
+.login_pad45{
+    padding: 10px 45px 30px;
+}
+.login_head{
+    text-align: center;
+    margin: 20px 0 50px 0;
+    color: #713886;
+}
+.login_dtext{
+    padding-right: 20px;
+}
+.login_dtext p{
+    color: #777;
+    margin-bottom: 15px;
+}
+.btn.btn-default.btn-account,
+.btn.btn-default.btn-account:hover,
+.btn.btn-default.btn-account:focus{
+    padding: 12px;
+    color: #fff;
+    width:100%;
+    background-color: #9d9d9d;
+    border:none;
+    outline: none;
+}
+.btn-135{width:135px !important;}
+.btn.btn-default.btn-orange,
+.btn.btn-default.btn-orange:hover,
+.btn.btn-default.btn-orange:focus{
+    padding: 12px;
+    color: #fff;
+    width:100%;
+    background-color: #ff5d27;
+    border:none;
+    outline: none;
+}
+.login_forgotlink{line-height: 40px;}
+.login_input,.input40{
+    margin-bottom: 25px;
+}
+.login_input input.form-control{
+    height: 40px;
+}
+/********* create profilr page *********/
+.input40 input.form-control, .input40 select.form-control{
+    height: 40px;
+}
+.btn.btn-default.btn-browse
+{
+    padding: 9px 18px;
+    background-color: #ddd;
+    color: #909090;
+    outline: none;
+}
+.profile_ulbtn,.followerDiv ul,.followerlist ul{
+    text-decoration: none;
+    list-style-type: none;
+    padding: 0;
+}
+.profile_ulbtn li{
+    display: inline-block;
+    margin-right: 20px;
+}
+.profile_ulbtn li:last-child{margin-right: 0;}
+
+/********* people page *********/
+.profile_list,.menu_list{float: right;}
+.profile_list{margin-right: -30px;}
+.profile_list ul li:last-child a{padding: 0;}
+.profile_list ul.navbar-nav > li > a,
+.profile_list ul.navbar-nav > li > a:hover,
+.profile_list ul.navbar-nav > li > a:focus
+{color:#fff;}
+.menu_list ul.navbar-nav > li > a,
+.menu_list ul.navbar-nav > li > a:hover,
+.menu_list ul.navbar-nav > li > a:focus
+{color:#d25fa4;}
+.profile_list ul li img{width:50px; height: 50px; object-fit: cover;}
+.menu_list ul.navbar-nav > li.noti_txt span{padding: 0 4px; font-size: 12px;}
+.people_list { margin-bottom: 20px;}
+.people_list .media-left{padding-right: 20px;}
+.people_list .media-left img{width:75px; height: 65px; object-fit: cover;}
+.people_list .media-body h4{font-weight: 600;}
+  .input-group-add input{
+       border-top-right-radius: 4px !important;
+    border-bottom-right-radius: 4px !important;
+}
+.input-group-add .input-group-btn:last-child > .btn{
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    padding: 10px 16px;
+    margin-left: 6px;
+}
+
+
+/********* follower page *********/
+.followerDiv ul{
+    display: inline-block;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.followerDiv ul li{
+    display: inline-block;
+    text-align: center;
+    float: left;
+    width: 33%;
+}
+.followerDiv ul li span{
+    font-size: 14px;
+    color: #d25fa4;
+}
+.followerDiv ul li h3{
+    color: #350e43;
+    margin: 10px 0;
+    font-weight: 600;
+}
+.followerLink,.followerLink:hover,.followerLink:focus{
+    color: #d25fa4;
+    font-size: 14px;
+}
+.followerlist ul{
+    display: inline-block;
+    width: 100%; 
+}
+.followerlist ul li:first-child{margin-top: 15px;}
+.followerlist ul li{
+    display: inline-block;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 15px;
+}
+.followerlist ul li h4{
+    color: #350e43;
+    margin-top: 0;
+    font-weight: 600;
+}
+.followerlist ul li p{
+    color: #713886;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.followerulLink,.followerulLink:hover,.followerulLink:focus{
+    color: #713886;
+    text-decoration: underline;
+}
+.btn.btn-default.btn-purple,
+.btn.btn-default.btn-purple:hover,
+.btn.btn-default.btn-purple:focus{
+    padding: 12px 16px;
+    color: #fff;
+    background-color: #713886;
+    border:none;
+    outline: none;
+}
+.btn.btn-default.btn-purtran,
+.btn.btn-default.btn-purtran:hover,
+.btn.btn-default.btn-purtran:focus{
+    padding: 12px 16px;
+    color: #713886;
+    background-color: transparent;
+    border:none;
+    outline: none;
+}
+.follow-content{
+    margin-bottom: 40px;
+}
+.media-followimg{
+    width: 45px;
+    height: 45px;
+    object-fit: cover;
+    position: relative;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+}
+.follow-head{margin-bottom: 15px;}
+.follow-smalltxt{font-size: 12px; color: #ababab; margin-bottom: 0;}
+.follow-link{font-size: 14px; color: #000; font-weight: 600;}
+.link-uppertxt{text-transform: uppercase;}
+.follow-link:hover,.follow-link:focus{
+    color: #713886; 
+    font-size: 14px;
+}
+.follow-desc{
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border: 1px solid #e3e3e3;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+}
+.follow-desc h4{font-weight: 600; margin-top: 0;}
+
+
+/********* view page *********/
+.view-head,.view-search{margin-bottom: 30px;}
+.view-head h1{
+    color: #713886;
+    margin: 0;
+}
+.view-list{
+    border: 1px solid #e3e3e3;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    margin-bottom: 30px;
+}
+.view-thumbimg{
+    width: 100%;
+    height: 170px;
+    display: inline-block;
+}
+.view-thumbimg img{
+    object-fit: cover;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    -webkit-border-top-left-radius: 4px;
+    -webkit-border-top-right-radius: 4px;
+    -moz-border-top-left-radius: 4px;
+    -moz-border-top-right-radius: 4px;
+}
+.view-body{
+    width: 100%;
+    display: inline-block;
+    padding: 20px;
+}
+.view-body h4{
+    color: #350e43;
+    margin-top: 0;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.view-body small{color:#713886;}
+.view-body p{
+    color: #000;
+    margin: 15px 0 0 0;
+}
+
+.view-footer ul{
+    display: inline-block;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0 20px;
+}
+.view-footer ul li{
+    display: inline-block;
+    text-align: left;
+    float: left;
+    width: 33%;
+}
+.view-footer ul li span{
+    font-size: 14px;
+    color: #d25fa4;
+}
+.view-footer ul li h3{
+    color: #350e43;
+    margin: 10px 0;
+    font-weight: 600;
+}
+.view-footer ul li a{white-space: normal;}
+
+/********* footer *********/
+.footer{
+    background-color: rgba(0, 0, 0, 0.12);
+    padding: 12px 0px;
+}
+.footer.active
+{
+    position: absolute;
+    width:100%;
+    bottom: 0;
+    left:0;
+    right:0;
+}
+.footer.active1
+{
+    position: static;
+    width:100%;
+    bottom: 0;
+    left:0;
+    right:0;
+}
+.footer_text{text-align: center; color: #21242c;}
+.footer_text p{margin: 5px 0; font-size: 14px;}
+
+/******* responsive ******/
+@media(max-width:1080px){
+    /****** profile page ******/
+    .btn-135{width:113px !important;}
+}
+@media(max-width:991px){
+    .nav.navbar-nav.kbin_smalltext{
+        padding: 15px 0 0 0;
+        margin: 0 0 0 10px;
+    }
+    .login_dtext {
+        padding-right: 0;
+        margin-bottom: 25px;
+    }
+    .btn.btn-default.btn-account,
+    .btn.btn-default.btn-account:hover,
+    .btn.btn-default.btn-account:focus,
+    .btn.btn-default.btn-orange,
+    .btn.btn-default.btn-orange:hover,
+    .btn.btn-default.btn-orange:focus
+    {
+        margin-bottom: 15px;
+    }
+}
+@media (max-width: 768px) {
+
+    /******* navbar toggle media *******/
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+        margin-left: -15px !important;
+        margin-right: -15px !important;
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+        display:block !important;
+
+    }
+    /************ End ***********/
+    .profile_list, .menu_list {
+        float: left;
+        width: 100%;
+    }
+    .profile_list ul li:last-child a{padding: 10px 15px;}
+}
+@media(max-width:480px){
+    .nav.navbar-nav.kbin_smalltext{
+        display: none;
+    }
+    .login_pad45 {
+        padding: 10px 5px 30px;
+    }
+    .login_head{
+        font-size:30px;
+        margin: 0 0 40px 0;
+    }
+    /****** profile page ******/
+    .profile_ulbtn li{margin-right: 0px; width: 100%;}
+    .btn-135{width:100% !important;}
+}
+@media(max-width:414px){
+
+    .login_head{
+        font-size: 26px;
+        margin: 0 0 30px 0;
+    }
+    /****** follower  page ******/
+    .follow-desc .media-body,.follow-desc .media-right{display: inline-block; width: 100%;}
+    .follow-desc .media-right{padding-left: 0;}
+}
+
