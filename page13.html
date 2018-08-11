@@ -11,17 +11,25 @@ and open the template in the editor.
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <!----- boostrap css -------->
-        <link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>
-        <link href="custom/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+        <!--<link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>-->
+        <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+              crossorigin="anonymous">-->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js" integrity="sha384-fA23ZRQ3G/J53mElWqVJEGJzU0sTs+SvzG8fXVWP+kJQ1lwFAOkcUOysnlKJC33U" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css" integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX" crossorigin="anonymous">
+        <script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js" integrity="sha384-CauSuKpEqAFajSpkdjv3z9t8E7RlpJ1UP0lKM/+NdtSarroVKu069AlsRPKkFBz9" crossorigin="anonymous"></script>
+        <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet" type="text/css"/>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+              rel="stylesheet">
 
         <!----- custom style -------->
         <link href="custom/style.css" rel="stylesheet" type="text/css"/>
 
         <!----- basic js -------->
-        <script src="js/jquery-1.12.3.min.js" type="text/javascript"></script>
+        <!--<script src="js/jquery-1.12.3.min.js" type="text/javascript"></script>-->
 
         <!----- boostrap js -------->
-        <script src="js/bootstrap.min.js" type="text/javascript"></script>
+        <!--<script src="js/bootstrap.min.js" type="text/javascript"></script>-->
 
         <!----- angular js -------->
         <script src="angular-js/angular.min.js" type="text/javascript"></script>
@@ -43,95 +51,68 @@ and open the template in the editor.
 
         <!-- navbar -->
         <section class="menu">
-            <nav class="navbar navbar-default">
-                <div class="container-fluid">
-                    <!-- Brand and toggle get grouped for better mobile display -->
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                        <a class="navbar-brand kbin_logo" href="#">
-                            KB<span>i</span>N 
-                        </a>
-                        <ul class="nav navbar-nav kbin_smalltext">
-                            <li>
-                                <span>
-                                    Knowledge Building Innovation Network 
-                                </span>  
-                            </li>
-                        </ul>
-
-                    </div>
-
-                    
-                        <ul class="nav navbar-nav navbar-right login_menu">
-                            <li><a href="">Login</a></li>
-                            <li><a href="">Sign Up</a></li>
-                        </ul>
-                    </div>
-                    <!-- /.navbar-collapse -->
-                </div><!-- /.container-fluid -->
+            <!-- Image and text -->
+            <nav class="navbar navbar-light" style="padding: 0rem !important;background-color: #03A9F4;color: white">
+                <div class="navbar-header">
+                    <a class="navbar-brand" style="padding-right: 0.5rem;padding-left: 0.5rem;background-color:#216FB3;color: white;font-weight: bold;">
+                        KF
+                    </a>&nbsp; My Communities
+                </div>
+                <a class="navbar-brand" href="#">
+                    <span class="navbar-brand d-none d-md-inline" style="color: white;font-size: small;">Randall Wade</span>
+                    <img src="../KBIN-UI-2/img/user1.png" width="30" height="30" style="border-radius: 50%;" class="d-inline-block align-top" alt="">
+                </a>
             </nav>
         </section>
 
         <section class="viewDiv">
             <div class="container">
-                <div class="row">
+                <div class="row row mt-1 pt-4">
+
                     <div class="col-md-4 col-sm-12 col-xs-12">
-                        <div class="view-head">
-                            <h1>Views</h1>
-                        </div>
-                    </div>
-                    <div class="col-md-8 col-sm-12 col-xs-12">
                         <div class="view-search">
-                            <div class="input-group input40"> 
-                                <input class="form-control" placeholder="Search for">
-                                <a href="" class="input-group-addon" style="text-decoration: none;">Go!</a>
+                            <div class="input-group input40">
+                                <i class="fa fa-search border border-right-0" style="cursor: pointer;padding-top: 8px;padding-right:8px;padding-left: 5px;background-color: #EFEFEF;" aria-hidden="true"></i>
+                                <input class="form-control border border-left-0 w-10" placeholder="Search" style="background-image: none !important; background-color: #EFEFEF;">
                             </div>
                         </div>
                     </div>
+                    <div class="col-md-8 col-sm-12 col-xs-12 text-right d-none d-md-inline">
+                        <div class="view-head pt-2" >
+                            <a href="#" style="text-decoration: none;"><img src="../KBIN-UI-2/img/add1.PNG"  style="border-radius: 50%;" class="d-inline-block" alt="">
+                                <span style="display:inline;vertical-align: middle;color: #04AAF5;">Create new community</span>
+                            </a>
+                            <a href="#" style="text-decoration: none;"><img src="../KBIN-UI-2/img/join.PNG"  style="border-radius: 50%;" class="d-inline-block" alt="">
+                                <span style="color: #04AAF5;">Join a community</span>
+                            </a>
+                        </div>
+                    </div>
                 </div>
-                <div class="row">
+                <div class="row pt-4">
                     <div class="col-md-4 col-sm-12 col-xs-12">
                         <!------- view list 01 -------->
                         <div class="view-list">
                             <div class="view-thumbimg">
                                 <img src="img/view01.jpg" alt=""/>
+                                <div class="top-left-text">FEBRUARY 13,2018</div>
+                                <button type="button" class="btn bmd-btn-icon top-right-image">
+                                    <i class="material-icons">more_vert</i>
+                                </button>
                             </div>
                             <div class="view-body">
                                 <h4>
-                                    Lorem ipsum
+                                    IntroKB-Winter2016
                                 </h4>
-                                <small class="text-uppercase">math - elementary - canada</small>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                    Integer eget elit faucibus, hendrerit nibh quis, lacinia turpis.
-                                    Pellentesque quis libero lacinia nisi ultricies sagittis.
-                                </p>
                             </div>
                             <div class="view-footer">
                                 <ul>
                                     <li>
-                                        <span>
-                                            Followers
-                                        </span>
-                                        <h3>
-                                            158
-                                        </h3>
-                                    </li>
-                                    <li>
-                                        <span>
-                                            Notes
-                                        </span>
-                                        <h3>
-                                            34
-                                        </h3>
-                                    </li>
-                                    <li>
-                                        <a href="" class="btn btn-default btn-purple" style="width: 100%;">Follow view</a>
+
+                                        <p>
+                                            <i class="fa fa-user-o"></i>
+                                            <img src="../KBIN-UI-2/img/authors.PNG"   alt="">
+                                            ANDREW, FRANK, CAROL..
+                                        </p>
                                     </li>
                                 </ul>
                             </div>
@@ -143,42 +124,29 @@ and open the template in the editor.
                         <div class="view-list">
                             <div class="view-thumbimg">
                                 <img src="img/view02.jpg" alt=""/>
+                                <div class="top-left-text">FEBRUARY 13,2018</div>
+                                <button type="button" class="btn bmd-btn-icon top-right-image">
+                                    <i class="material-icons">more_vert</i>
+                                </button>
                             </div>
                             <div class="view-body">
                                 <h4>
-                                    Numquam duo
+                                    CTL1926
                                 </h4>
-                                <small class="text-uppercase">Higher education</small>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                    Integer eget elit faucibus, hendrerit nibh quis, lacinia turpis.
-                                    Pellentesque quis libero lacinia nisi ultricies sagittis.
-                                </p>
                             </div>
                             <div class="view-footer">
                                 <ul>
                                     <li>
-                                        <span>
-                                            Followers
-                                        </span>
-                                        <h3>
-                                            15
-                                        </h3>
-                                    </li>
-                                    <li>
-                                        <span>
-                                            Notes
-                                        </span>
-                                        <h3>
-                                            89
-                                        </h3>
-                                    </li>
-                                    <li>
-                                        <a href="" class="btn btn-default btn-purple" style="width: 100%;">Follow view</a>
+
+                                        <p>
+                                            <img src="../KBIN-UI-2/img/authors.PNG" width="20" height="20"  alt="">
+                                            ANDREW, FRANK, CAROL..
+                                        </p>
                                     </li>
                                 </ul>
                             </div>
                         </div>
+
                     </div>
 
                     <div class="col-md-4 col-sm-12 col-xs-12">
@@ -186,169 +154,116 @@ and open the template in the editor.
                         <div class="view-list">
                             <div class="view-thumbimg">
                                 <img src="img/view03.jpg" alt=""/>
+                                <div class="top-left-text">FEBRUARY 13,2018</div>
+                                <button type="button" class="btn bmd-btn-icon top-right-image">
+                                    <i class="material-icons">more_vert</i>
+                                </button>
                             </div>
                             <div class="view-body">
                                 <h4>
-                                    Dolor sit amet
+                                    Knowledge Society Network
                                 </h4>
-                                <small class="text-uppercase">Secondary - social sciences</small>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                    Integer eget elit faucibus, hendrerit nibh quis, lacinia turpis.
-                                    Pellentesque quis libero lacinia nisi ultricies sagittis.
-                                </p>
                             </div>
                             <div class="view-footer">
                                 <ul>
                                     <li>
-                                        <span>
-                                            Followers
-                                        </span>
-                                        <h3>
-                                            201
-                                        </h3>
-                                    </li>
-                                    <li>
-                                        <span>
-                                            Notes
-                                        </span>
-                                        <h3>
-                                            445
-                                        </h3>
-                                    </li>
-                                    <li>
-                                        <a href="" class="btn btn-default btn-purple" style="width: 100%;">Follow view</a>
+
+                                        <p>
+                                            <img src="../KBIN-UI-2/img/add.PNG" width="20" height="20"  alt="">
+                                            ANDREW, FRANK, CAROL..
+                                        </p>
                                     </li>
                                 </ul>
                             </div>
                         </div>
+
                     </div>
                     <div class="col-md-4 col-sm-12 col-xs-12">
                         <!------- view list 04 -------->
                         <div class="view-list">
                             <div class="view-thumbimg">
                                 <img src="img/view04.jpg" alt=""/>
+                                <div class="top-left-text">FEBRUARY 13,2018</div>
+                                <button type="button" class="btn bmd-btn-icon top-right-image">
+                                    <i class="material-icons">more_vert</i>
+                                </button>
                             </div>
                             <div class="view-body">
                                 <h4>
-                                    Sed nulla ante
+                                    KF6 Development
                                 </h4>
-                                <small class="text-uppercase">Secondary - social sciences</small>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                    Integer eget elit faucibus, hendrerit nibh quis, lacinia turpis.
-                                    Pellentesque quis libero lacinia nisi ultricies sagittis.
-                                </p>
                             </div>
                             <div class="view-footer">
                                 <ul>
                                     <li>
-                                        <span>
-                                            Followers
-                                        </span>
-                                        <h3>
-                                            55
-                                        </h3>
-                                    </li>
-                                    <li>
-                                        <span>
-                                            Notes
-                                        </span>
-                                        <h3>
-                                            99
-                                        </h3>
-                                    </li>
-                                    <li>
-                                        <a href="" class="btn btn-default btn-purple" style="width: 100%;">Follow view</a>
+
+                                        <p>
+                                            <img src="../KBIN-UI-2/img/add.PNG" width="20" height="20"  alt="">
+                                            ANDREW, FRANK, CAROL..
+                                        </p>
                                     </li>
                                 </ul>
                             </div>
                         </div>
+
                     </div>
                     <div class="col-md-4 col-sm-12 col-xs-12">
-                        <!------- view list 04 -------->
+                        <!------- view list 05 -------->
                         <div class="view-list">
                             <div class="view-thumbimg">
                                 <img src="img/view05.jpg" alt=""/>
+                                <div class="top-left-text">FEBRUARY 13,2018</div>
+                                <button type="button" class="btn bmd-btn-icon top-right-image">
+                                    <i class="material-icons">more_vert</i>
+                                </button>
                             </div>
                             <div class="view-body">
                                 <h4>
-                                    Fusce fermentum eros
+                                    KBSI2016
                                 </h4>
-                                <small class="text-uppercase">Secondary - social sciences</small>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                    Integer eget elit faucibus, hendrerit nibh quis, lacinia turpis.
-                                    Pellentesque quis libero lacinia nisi ultricies sagittis.
-                                </p>
                             </div>
                             <div class="view-footer">
                                 <ul>
                                     <li>
-                                        <span>
-                                            Followers
-                                        </span>
-                                        <h3>
-                                            122
-                                        </h3>
-                                    </li>
-                                    <li>
-                                        <span>
-                                            Notes
-                                        </span>
-                                        <h3>
-                                            456
-                                        </h3>
-                                    </li>
-                                    <li>
-                                        <a href="" class="btn btn-default btn-purple" style="width: 100%;">Follow view</a>
+
+                                        <p>
+                                            <img src="../KBIN-UI-2/img/add.PNG" width="20" height="20"  alt="">
+                                            ANDREW, FRANK, CAROL..
+                                        </p>
                                     </li>
                                 </ul>
                             </div>
                         </div>
                     </div>
                      <div class="col-md-4 col-sm-12 col-xs-12">
-                        <!------- view list 04 -------->
-                        <div class="view-list">
-                            <div class="view-thumbimg">
-                                <img src="img/view06.jpg" alt=""/>
-                            </div>
-                            <div class="view-body">
-                                <h4>
-                                    Fusce fermentum eros
-                                </h4>
-                                <small class="text-uppercase">Secondary - social sciences</small>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                    Integer eget elit faucibus, hendrerit nibh quis, lacinia turpis.
-                                    Pellentesque quis libero lacinia nisi ultricies sagittis.
-                                </p>
-                            </div>
-                            <div class="view-footer">
-                                <ul>
-                                    <li>
-                                        <span>
-                                            Followers
-                                        </span>
-                                        <h3>
-                                           345
-                                        </h3>
-                                    </li>
-                                    <li>
-                                        <span>
-                                            Notes
-                                        </span>
-                                        <h3>
-                                            123
-                                        </h3>
-                                    </li>
-                                    <li>
-                                        <a href="" class="btn btn-default btn-purple" style="width: 100%;">Follow view</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
+                        <!------- view list 06 -------->
+                         <div class="view-list">
+                             <div class="view-thumbimg">
+                                 <img src="img/view06.jpg" alt=""/>
+                                 <div class="top-left-text">FEBRUARY 13,2018</div>
+                                 <button type="button" class="btn bmd-btn-icon top-right-image">
+                                     <i class="material-icons">more_vert</i>
+                                 </button>
+                             </div>
+                             <div class="view-body">
+                                 <h4>
+                                     KB Summer
+                                 </h4>
+                             </div>
+                             <div class="view-footer">
+                                 <ul>
+                                     <li>
+
+                                         <p>
+                                             <img src="../KBIN-UI-2/img/add.PNG" width="20" height="20"  alt="">
+                                             ANDREW, FRANK, CAROL..
+                                         </p>
+                                     </li>
+                                 </ul>
+                             </div>
+                         </div>
+
+                     </div>
                 </div>
             </div>
         </section>

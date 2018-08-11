@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+<head>
+    <title>Kbin | page13</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!----- boostrap css -------->
+    <!--<link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>-->
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+          crossorigin="anonymous">-->
+    <!-- drawer.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/css/drawer.min.css">
+    <!-- jquery & iScroll -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.2.0/iscroll.min.js"></script>
+    <!-- drawer.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/js/drawer.min.js"></script>
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet" type="text/css"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+          rel="stylesheet">
+
+
+    <!----- custom style -------->
+    <link href="custom/style.css" rel="stylesheet" type="text/css"/>
+
+    <!----- basic js -------->
+    <!--<script src="js/jquery-1.12.3.min.js" type="text/javascript"></script>-->
+
+    <!----- boostrap js -------->
+    <!--<script src="js/bootstrap.min.js" type="text/javascript"></script>-->
+
+    <!----- angular js -------->
+    <script src="angular-js/angular.min.js" type="text/javascript"></script>
+    <script src="angular-js/angular-route.js" type="text/javascript"></script>
+    <script src="angular-js/angular-animate.min.js" type="text/javascript"></script>
+
+    <script src="main.js" type="text/javascript"></script>
+    <script src="app.js" type="text/javascript"></script>
+
+    <!-- <base href="/">-->
+    <!--<style>
+        .navbar-default .navbar-nav.app_header li a { color: #21242C; font-size: 20px; padding: 0;}
+
+    </style>
+-->
+</head>
+<body class="drawer drawer--left">
+        <span class="drawer-toggle">KF</span>
+    <nav class="drawer-nav" role="navigation">
+        <ul class="drawer-menu list-group">
+            <li><a class="drawer-brand" href="#">Brand</a></li>
+            <li><a class="drawer-menu-item" href="#">Nav1</a></li>
+            <li><a class="drawer-menu-item" href="#">Nav2</a></li>
+        </ul>
+    </nav>
+</body>
+<script>
+    $(document).ready(function() {
+        $('.drawer').drawer();
+    });
+</script>
+
+<script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js" integrity="sha384-fA23ZRQ3G/J53mElWqVJEGJzU0sTs+SvzG8fXVWP+kJQ1lwFAOkcUOysnlKJC33U" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js" integrity="sha384-CauSuKpEqAFajSpkdjv3z9t8E7RlpJ1UP0lKM/+NdtSarroVKu069AlsRPKkFBz9" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/js/drawer.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/js/drawer.min.js"></script>
+
+<!--
+ navbar
+<section class="menu">
+    &lt;!&ndash; Image and text &ndash;&gt;
+    <nav class="navbar navbar-light header-color-change">
+        <div class="navbar-header">
+            <a class="navbar-brand" style="padding-right: 0.5rem;padding-left: 0.5rem;background-color:#216FB3;color: white;font-weight: bold;">
+                KF
+            </a>&nbsp; My Communities
+        </div>
+        <div>
+            <div class="d-none d-md-inline float-left pl-2 pr-2">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item dropdown">
+                        <button class="btn dropdown-toggle btn-navbar-dropdown mb-0 pb-1 pt-1" href="#" id="navbarDropdown" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            KB Principles
+                        </button>
+                        <div class="bg-light dropdown-menu dropdown-position-color" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item reduce-dropdown-height" href="#">Welcome</a>
+                            <a class="dropdown-item reduce-dropdown-height" href="#">KB Principles</a>
+                            <a class="dropdown-item reduce-dropdown-height" href="#">IKIT Research</a>
+                            <a class="dropdown-item reduce-dropdown-height" href="#">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fall 2016</a>
+                            <a class="dropdown-item reduce-dropdown-height" href="#">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Summer 2016</a>
+                            <a class="dropdown-item reduce-dropdown-height" href="#">MOE/LSA Research</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="d-none d-md-inline float-left pl-2 pr-2">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item dropdown">
+                        <button class="btn dropdown-toggle btn-navbar-dropdown mb-0 pb-1 pt-1" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Zoom
+                        </button>
+                        <div class="bg-light dropdown-menu dropdown-menu-right ml-3 mr-4 dropdown-position-color" style="min-width: 3.0rem !important;" aria-labelledby="dropdownMenuButton">
+                            <span id="zoomValue" value=""></span>
+                            <input type="range" min="0" max="100" orient="vertical" onchange="updateTextInput(this.value)"/>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="d-none d-md-inline float-left pl-2 pr-2">
+                <form class="form-inline ">
+                    <button class="btn btn-navbar-dropdown  mb-0 btn-navbar-padding pb-1 pt-1" type="button"><img src="../KBIN-UI-2/img/list1.png"></button>
+                </form>
+            </div>
+            <div class="d-none d-md-inline float-left pl-2 pr-2">
+                <form class="form-inline">
+                    <button class="btn btn-navbar-dropdown btn-navbar-padding mb-0 pb-1 pt-1" type="button"><img src="../KBIN-UI-2/img/settings1.png"></button>
+                </form>
+            </div>
+        </div>
+        <a class="navbar-brand" href="#">
+            <span class="navbar-brand d-none d-md-inline" style="color: #216FB3;font-size: small;">Randall Wade</span>
+            <img src="../KBIN-UI-2/img/user1.png" width="30" height="30" style="border-radius: 50%;" class="d-inline-block align-top" alt="">
+        </a>
+    </nav>
+</section>-->
+
+
+</html>

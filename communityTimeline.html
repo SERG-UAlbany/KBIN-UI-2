@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Kbin | page13</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!----- boostrap css -------->
+        <!--<link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>-->
+        <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+              crossorigin="anonymous">-->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js" integrity="sha384-fA23ZRQ3G/J53mElWqVJEGJzU0sTs+SvzG8fXVWP+kJQ1lwFAOkcUOysnlKJC33U" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css" integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX" crossorigin="anonymous">
+        <script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js" integrity="sha384-CauSuKpEqAFajSpkdjv3z9t8E7RlpJ1UP0lKM/+NdtSarroVKu069AlsRPKkFBz9" crossorigin="anonymous"></script>
+        <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet" type="text/css"/>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+              rel="stylesheet">
+        <!----- custom style -------->
+        <link href="custom/style.css" rel="stylesheet" type="text/css"/>
+
+        <!----- basic js -------->
+        <!--<script src="js/jquery-1.12.3.min.js" type="text/javascript"></script>-->
+
+        <!----- boostrap js -------->
+        <!--<script src="js/bootstrap.min.js" type="text/javascript"></script>-->
+
+        <!----- angular js -------->
+        <script src="angular-js/angular.min.js" type="text/javascript"></script>
+        <script src="angular-js/angular-route.js" type="text/javascript"></script>
+        <script src="angular-js/angular-animate.min.js" type="text/javascript"></script>
+
+        <script src="main.js" type="text/javascript"></script>
+        <script src="app.js" type="text/javascript"></script>
+
+        <!-- <base href="/">-->
+        <style>
+            .navbar-default .navbar-nav.app_header li a { color: #21242C; font-size: 20px; padding: 0;}
+
+        </style>
+
+    </head>
+
+    <body>
+
+        <!-- navbar -->
+        <section class="menu">
+            <!-- Image and text -->
+            <nav class="navbar navbar-light" style="padding: 0rem !important;background-color: #03A9F4;color: white">
+                <div class="navbar-header">
+                    <a class="navbar-brand" style="padding-right: 0.5rem;padding-left: 0.5rem;background-color:#216FB3;color: white;font-weight: bold;">
+                        KF
+                    </a>&nbsp; My Communities
+                </div>
+                <a class="navbar-brand" href="#">
+                    <span class="navbar-brand d-none d-md-inline" style="color: white;font-size: small;">Randall Wade</span>
+                    <img src="../KBIN-UI-2/img/user1.png" width="30" height="30" style="border-radius: 50%;" class="d-inline-block align-top" alt="">
+                </a>
+            </nav>
+        </section>
+
+        <section class="bg-light">
+            <div class="container ml-0 pl-0 pr-0">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 col-12">
+                        <ul class="list-group" >
+
+                            <a class="pl-3 list-group-item listgroup-size-change " style="color: #03A9F4;">
+                                <i class="material-icons material-icon-reduce-size">add_circle_outline</i>
+                                Create a new community
+                            </a>
+                            <a class="pl-3 list-group-item listgroup-size-change" style="color: #03A9F4;">
+                                <i class="material-icons material-icon-reduce-size">color_lens</i>
+                                Join a new community
+                            </a>
+                            <a class="pl-3 list-group-item listgroup-size-change">
+                            </a>
+
+                            <a class="pl-3 list-group-item listgroup-size-change">
+                                <img src="img/view01.jpg"  width="40" height="40" style="    margin-right: 1rem;">
+                                <span class="follow-link" style="    line-height: 1.2rem;">IntroKB-Winter2016<br>
+                                <span class="follow-smalltxt" >UofT server</span>
+                                </span>
+                            </a>
+                            <a class="pl-3 list-group-item listgroup-size-change">
+                                <img src="img/view02.jpg"  width="40" height="40" style="    margin-right: 1rem;">
+                                <span class="follow-link" style="    line-height: 1.2rem;">KF6 Development<br>
+                                <span class="follow-smalltxt" >UofT server</span>
+                                </span>
+                            </a>
+                            <a class="pl-3 list-group-item listgroup-size-change">
+                                <img src="img/view03.jpg"  width="40" height="40" style="    margin-right: 1rem;">
+                                <span class="follow-link" style="    line-height: 1.2rem;">CTL 1926<br>
+                                <span class="follow-smalltxt" >UofT server</span>
+                                </span>
+                            </a>
+                            <a class="pl-3 list-group-item listgroup-size-change">
+                                <img src="img/view04.jpg"  width="40" height="40" style="    margin-right: 1rem;">
+                                <span class="follow-link" style="    line-height: 1.2rem;">Knowledge Society Network<br>
+                                <span class="follow-smalltxt" >Albany server</span>
+                                </span>
+                            </a>
+                            <a class="pl-3 list-group-item listgroup-size-change">
+                                <img src="img/view05.jpg"  width="40" height="40" style="    margin-right: 1rem;">
+                                <span class="follow-link" style="    line-height: 1.2rem;">KB in Action<br>
+                                <span class="follow-smalltxt" >Albany server</span>
+                                </span>
+                            </a>
+                            <a class="pl-3 list-group-item listgroup-size-change">
+                                <img src="img/view06.jpg"  width="40" height="40" style="    margin-right: 1rem;">
+                                <span class="follow-link" style="    line-height: 1.2rem;">KBSI2016<br>
+                                <span class="follow-smalltxt" >Albany server</span>
+                                </span>
+                            </a>
+                            <a class="pl-3 list-group-item listgroup-size-change">
+                                <img src="img/view06.jpg"  width="40" height="40" style="    margin-right: 1rem;">
+                                <span class="follow-link" style="    line-height: 1.2rem;">KB Summer<br>
+                                <span class="follow-smalltxt" >Albany server</span>
+                                </span>
+                            </a>
+                        </ul>
+                    </div>
+                    <div class="pt-4 col-lg-8 col-md-8 col-sm-12 col-12">
+                        <!--content - 1-->
+                        <div class="follow-content">
+                            <div class="media">
+                                <div class="media-left">
+                                    <a href="#">
+                                        <img class="media-object media-followimg" src="img/user1.png"  width="40" height="40" style="border-radius: 50%;" alt="person1">
+                                    </a>
+                                    <div class="timeline-line-below-image">
+                                    </div>
+                                </div>
+
+                                <div class="media-body">
+                                    <div class="pt-2 follow-head">
+                                        <div class="col-lg-8 col-md-8 col-sm-8 col-8" style="float: left;clear: right">
+                                            <p class="follow-smalltxt pl-2">
+                                                <span class="follow-link link-uppertxt">Randall wade</span>
+                                                added a new note to
+                                                <span class="follow-link">IntroKB-Winter2016/Welcome</span>
+                                            </p>
+                                        </div>
+                                        <div class="col-lg-4 col-md-4 col-sm-4 col-4" style="float: right">
+                                            <span class="follow-smalltxt" style="float: right">
+                                                10 minutes ago
+                                            </span>
+                                        </div>
+                                    </div>
+
+                                    <div class="ml-4 mt-3  row mr-0 float-left timeline-card-layout">
+                                        <div class="card col-lg-8 col-md-8 col-sm-8 col-8 pr-4 float-left" style="clear: left">
+                                            <div class="pt-2">
+                                                <p class="mb-1" style="font-size: medium">Collective cognitive responsibility</p>
+                                                <p style="font-size: smaller;color: gray;" id="text1">
+                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                                    Integer eget elit faucibus, hendrerit.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="card col-lg-4 col-md-4 col-sm-4 col-4 pl-0 pr-0" style="float: right">
+                                            <img class="media-object timeline-image" src="img/view04.jpg"  alt="person1">
+                                            <div class="timeline-image-text-left">READ</div>
+                                            <div class="timeline-image-text-right">BUILD ON</div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!--content  -2 -->
+                        <div class="follow-content">
+                            <div class="media">
+                                <div class="media-left">
+                                    <a href="#">
+                                        <img class="media-object media-followimg" src="img/user1.png"  width="40" height="40" style="border-radius: 50%;" alt="person1">
+                                    </a>
+                                    <div class="timeline-line-below-image">
+                                    </div>
+                                </div>
+                                <div class="media-body">
+                                    <div class="pt-2 follow-head">
+                                        <div class="col-lg-8 col-md-8 col-sm-8 col-8" style="float: left;clear: right">
+                                            <p class="follow-smalltxt pl-2">
+                                                <span class="follow-link link-uppertxt">Randall wade</span>
+                                                added a new note to
+                                                <span class="follow-link">IntroKB-Winter2016/Welcome</span>
+                                            </p>
+                                        </div>
+                                        <div class="col-lg-4 col-md-4 col-sm-4 col-4" style="float: right">
+                                            <span class="follow-smalltxt" style="float: right">
+                                                10 minutes ago
+                                            </span>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-12 ml-2 mt-3  row mr-0 float-left" style="height: 7rem">
+                                        <div class="card bg-primary col-lg-10 col-md-10 col-sm-10 col-10 pr-0 mr-0">
+                                            <div class="card-body pl-0 pr-0" style="padding-top: 10px;padding-bottom: 10px">
+                                                <p class="card-title">Card title</p>
+                                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                            </div>
+                                        </div>
+                                        <div class="card col-lg-2 col-md-2 col-sm-2 col-2 pl-0 pr-0" style="float: right;    background-color: #02A0E7;">
+                                            ABC
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!--content -3-->
+                        <div class="follow-content">
+                            <div class="media">
+                                <div class="media-left">
+                                    <a href="#">
+                                        <img class="media-object media-followimg" src="img/user1.png"  width="40" height="40" style="border-radius: 50%;" alt="person1">
+                                    </a>
+                                    <div class="timeline-line-below-image">
+                                    </div>
+                                </div>
+                                <div class="media-body">
+                                    <div class="pt-2 follow-head">
+                                        <div class="col-lg-8 col-md-8 col-sm-8 col-8" style="float: left;clear: right">
+                                            <p class="follow-smalltxt pl-2">
+                                                <span class="follow-link link-uppertxt">Randall wade</span>
+                                                added a new note to
+                                                <span class="follow-link">IntroKB-Winter2016/Welcome</span>
+                                            </p>
+                                        </div>
+                                        <div class="col-lg-4 col-md-4 col-sm-4 col-4" style="float: right">
+                                            <span class="follow-smalltxt" style="float: right">
+                                                10 minutes ago
+                                            </span>
+                                        </div>
+                                    </div>
+
+                                    <div class="ml-4 mt-3 row mr-0 float-left timeline-card-layout" >
+                                        <div class="card col-lg-8 col-md-8 col-sm-8 col-8 pr-4 float-left" style="clear: left">
+                                            <div class="pt-2">
+                                                <p class="mb-1" style="font-size: medium">Collective cognitive responsibility</p>
+                                                <p style="font-size: smaller;color: gray;">
+                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                                    Integer eget elit faucibus, hendrerit.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="card col-lg-4 col-md-4 col-sm-4 col-4 pl-0 pr-0" style="float: right">
+                                            <img class="media-object timeline-image" src="img/view04.jpg"  alt="person1">
+                                            <div class="timeline-image-text-left">READ</div>
+                                            <div class="timeline-image-text-right">BUILD ON</div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!--content -4-->
+                        <div class="follow-content">
+                            <div class="media">
+                                <div class="media-left">
+                                    <a href="#">
+                                        <img class="media-object media-followimg" src="img/user1.png"  width="40" height="40" style="border-radius: 50%;" alt="person1">
+                                    </a>
+                                </div>
+                                <div class="media-body">
+                                    <div class="pt-2 follow-head">
+                                        <div class="col-lg-8 col-md-8 col-sm-8 col-8" style="float: left;clear: right">
+                                            <p class="follow-smalltxt pl-2">
+                                                <span class="follow-link link-uppertxt">Randall wade</span>
+                                                added a new note to
+                                                <span class="follow-link">IntroKB-Winter2016/Welcome</span>
+                                            </p>
+                                        </div>
+                                        <div class="col-lg-4 col-md-4 col-sm-4 col-4" style="float: right">
+                                            <span class="follow-smalltxt" style="float: right">
+                                                10 minutes ago
+                                            </span>
+                                        </div>
+                                    </div>
+
+                                    <div class="ml-4 mt-3 row mr-0 float-left timeline-card-layout">
+                                        <div class="card col-lg-8 col-md-8 col-sm-8 col-8 pr-4 float-left" style="clear: left">
+                                            <div class="pt-2">
+                                                <p class="mb-1" style="font-size: medium">Collective cognitive responsibility</p>
+                                                <p style="font-size: smaller;color: gray;" >
+                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                                    Integer eget elit faucibus, hendrerit.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="card col-lg-4 col-md-4 col-sm-4 col-4 pl-0 pr-0" style="float: right">
+                                            <img class="media-object timeline-image" src="img/view04.jpg"  alt="person1">
+                                            <div class="timeline-image-text-left">READ</div>
+                                            <div class="timeline-image-text-right">BUILD ON</div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                </div>
+                </div>
+            </div>
+        </section>
+       
+
+
+
+    </body>
+
+
+</html>

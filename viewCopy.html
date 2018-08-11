@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Kbin | View</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!----- boostrap css -------->
+        <!--<link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>-->
+        <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+              crossorigin="anonymous">-->
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" type="text/javascript"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+        <script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js" integrity="sha384-fA23ZRQ3G/J53mElWqVJEGJzU0sTs+SvzG8fXVWP+kJQ1lwFAOkcUOysnlKJC33U" crossorigin="anonymous"></script>
+        <!--<script src="//cdnjs.cloudflare.com/ajax/libs/jsPlumb/1.4.1/jquery.jsPlumb-1.4.1-all-min.js"></script>-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jsPlumb/2.7.13/js/jsplumb.min.js"></script>
+        <!--<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>-->
+        <!-- drawer.css -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/css/drawer.min.css">
+        <!-- jquery & iScroll -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.2.0/iscroll.min.js"></script>
+        <!-- drawer.js -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/js/drawer.min.js"></script>
+
+        <link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css" integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX" crossorigin="anonymous">
+        <script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js" integrity="sha384-CauSuKpEqAFajSpkdjv3z9t8E7RlpJ1UP0lKM/+NdtSarroVKu069AlsRPKkFBz9" crossorigin="anonymous"></script>
+        <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet" type="text/css"/>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+              rel="stylesheet">
+
+
+
+
+        <!----- custom style -------->
+        <link href="custom/style.css" rel="stylesheet" type="text/css"/>
+
+        <!----- basic js -------->
+       <!-- <script src="js/jquery-1.12.3.min.js" type="text/javascript"></script>-->
+
+        <!----- boostrap js -------->
+        <!--<script src="js/bootstrap.min.js" type="text/javascript"></script>-->
+
+        <!----- angular js -------->
+        <script src="angular-js/angular.min.js" type="text/javascript"></script>
+        <script src="angular-js/angular-route.js" type="text/javascript"></script>
+        <script src="angular-js/angular-animate.min.js" type="text/javascript"></script>
+
+        <script src="main.js" type="text/javascript"></script>
+        <script src="app.js" type="text/javascript"></script>
+
+        <!-- <base href="/">-->
+        <style>
+            .navbar-default .navbar-nav.app_header li a { color: #21242C; font-size: 20px; padding: 0;}
+        </style>
+
+    </head>
+
+    <body>
+
+        <!-- navbar -->
+        <section class="menu drawer drawer--left">
+            <!-- Image and text -->
+            <nav class="navbar navbar-light header-color-change">
+                <div class="navbar-header" >
+                    <a class="navbar-brand drawer-toggle" role="navigation" style="padding-right: 0.5rem;padding-left: 0.5rem;background-color:#216FB3;color: white;font-weight: bold;">
+                        KF
+                    </a>&nbsp; My Communities
+                </div>
+                <nav class="drawer-nav bg-light" role="navigation">
+                    <div>
+                        <img src="img/view02.jpg" alt=""/>
+                        <div class="text-sidebar-view">Knowledge Society Network</div>
+                        <i class="material-icons material-icon-reduce-size top-left-text">arrow_back</i>
+                    </div>
+                    <div class="pl-3 pt-3 pr-3 pb-1 " >
+                        <p style="font-size: small;">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "</p>
+                    </div>
+                    <div class="pl-3">
+                        <ul class="drawer-menu">
+                            <a class="list-group-item listgroup-size-change">
+                                <i class="material-icons material-icon-reduce-size">people</i>
+                                Members
+                            </a>
+                            <a class="list-group-item listgroup-size-change">
+                                <i class="material-icons material-icon-reduce-size">search</i>
+                                Search
+                            </a>
+                            <a class="list-group-item listgroup-size-change">
+                                <i class="material-icons material-icon-reduce-size">settings</i>
+                                Setting
+                            </a>
+                            <a class="list-group-item listgroup-size-change">
+                                <i class="material-icons material-icon-reduce-size">insert_chart</i>
+                                Analytics
+                            </a>
+                            <a class="list-group-item listgroup-size-change">
+                                <i class="material-icons material-icon-reduce-size">work</i>
+                                Personal Workspace
+                            </a>
+                        </ul>
+                    </div>
+                </nav>
+            <div>
+                <div class="d-none d-md-inline float-left pl-2 pr-2">
+                <ul class="navbar-nav mr-auto">
+                <li class="nav-item dropdown">
+                    <button class="btn dropdown-toggle btn-navbar-dropdown mb-0 pb-1 pt-1" href="#" id="navbarDropdown" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        KB Principles
+                    </button>
+                    <div class="bg-light dropdown-menu dropdown-position-color" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item reduce-dropdown-height" href="#">Welcome</a>
+                        <a class="dropdown-item reduce-dropdown-height" href="#">KB Principles</a>
+                        <a class="dropdown-item reduce-dropdown-height" href="#">IKIT Research</a>
+                        <a class="dropdown-item reduce-dropdown-height" href="#">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fall 2016</a>
+                        <a class="dropdown-item reduce-dropdown-height" href="#">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Summer 2016</a>
+                        <a class="dropdown-item reduce-dropdown-height" href="#">MOE/LSA Research</a>
+                    </div>
+                </li>
+                </ul>
+                </div>
+                <div class="d-none d-md-inline float-left pl-2 pr-2">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item dropdown">
+                            <button class="btn dropdown-toggle btn-navbar-dropdown mb-0 pb-1 pt-1" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Zoom
+                            </button>
+                            <div class="bg-light dropdown-menu dropdown-menu-right ml-3 mr-4 dropdown-position-color" style="min-width: 3.0rem !important;" aria-labelledby="dropdownMenuButton">
+                                <span id="zoomValue" value=""></span>
+                                <input type="range" min="0" max="100" orient="vertical" onchange="updateTextInput(this.value)"/>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="d-none d-md-inline float-left pl-2 pr-2">
+                    <form class="form-inline ">
+                        <button class="btn btn-navbar-dropdown  mb-0 btn-navbar-padding pb-1 pt-1" type="button"><img src="../KBIN-UI-2/img/list1.png"></button>
+                    </form>
+                </div>
+                <div class="d-none d-md-inline float-left pl-2 pr-2">
+                    <form class="form-inline">
+                        <button class="btn btn-navbar-dropdown btn-navbar-padding mb-0 pb-1 pt-1" type="button"><img src="../KBIN-UI-2/img/settings1.png"></button>
+                    </form>
+                </div>
+            </div>
+                <!--<div class="col-md-6 float-left">
+                    <div class="col-md-4 float-left" style="clear: left;">
+                        <div class="dropdown">
+                            <button class="btn btn-danger dropdown-toggle" type="button" id="dropdownMenuButton1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Views
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                <a class="dropdown-item" href="#">Welcome</a>
+                                <a class="dropdown-item" href="#">KB Principles</a>
+                                <a class="dropdown-item" href="#">IKIT Research</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 float-left">
+                        <div class="dropdown ">
+                            <button class="btn btn-danger dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Zoom
+                            </button>
+                                <div class="dropdown-menu dropdown-menu-right ml-3 mr-4" style="margin-top: -0.9rem;min-width: 3.0rem !important;" aria-labelledby="dropdownMenuButton">
+                                <span id="zoomValue" value=""></span>
+                                <input type="range" min="0" max="100" orient="vertical" onchange="updateTextInput(this.value)"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2 float-left">
+                        <button type="button" class="btn btn-purple">Notes</button>
+                    </div>
+                    <div class="col-md-2 float-left">
+                        <button type="button" class="btn btn-purple">Setting</button>
+                    </div>
+                </div>
+-->
+
+                <a class="navbar-brand" href="#">
+                    <span class="navbar-brand d-none d-md-inline" style="color: #216FB3;font-size: small;">Randall Wade</span>
+                    <img src="../KBIN-UI-2/img/user1.png" width="30" height="30" style="border-radius: 50%;" class="d-inline-block align-top" alt="">
+                </a>
+            </nav>
+        </section>
+
+        <section class="section-view" style="height: auto;">
+            <!--<div class="">-->
+                <!--<div class="row">-->
+
+                    <!--<div class="col-md-8 col-sm-12 col-xs-12 pt-3 bg-faded">-->
+                        <!--<div class="card w-25">
+                            <div class="card-header">
+                                Featured
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                            </div>
+                        </div>-->
+                        <div class="card" style="width: 18rem; height: 4rem;" id="item_left">
+                            <div class="card-header" style="  padding-bottom: 0.09rem !important; padding-top: 0.79rem!important;">
+                                Collective Responsiblity
+                            </div>
+                            <button type="button" class="btn bmd-btn-icon top-right-icon-view">
+                                <i class="material-icons">more_vert</i>
+                            </button>
+                            <ul class="list-group list-group-flush bg-light">
+                                <li class="list-group-item bg-light" style="padding:0.09rem 0.09rem 0.09rem 0.9rem;">
+                                    Cras justo odio</li>
+                            </ul>
+                        </div>
+                        <div class="card" style="width: 18rem; height: 4rem;" id="item_right">
+                            <div class="card-header" style="  padding-bottom: 0.09rem !important; padding-top: 0.79rem!important;">
+                                Building strong communities
+                            </div>
+                            <button type="button" class="btn bmd-btn-icon top-right-icon-view">
+                                <i class="material-icons">more_vert</i>
+                            </button>
+                            <ul class="list-group list-group-flush bg-light">
+                                <li class="list-group-item bg-light" style="padding:0.09rem 0.09rem 0.09rem 0.9rem;">
+                                    Cras justo odio</li>
+                            </ul>
+                        </div>
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</div>-->
+            <button type="button" class="btn btn-raised btn-yellow-round bottom-right">
+                <img src="../KBIN-UI-2/img/baseline_add_white.png" style="    margin-left: -0.25rem;" alt="">
+            </button>
+        </section>
+    </body>
+<!--    <script>
+        $( function() {
+            $( ".card" ).draggable({ containment: "document" });
+        } );
+    </script>
+<script>
+    $('.c').collapse({
+        toggle:true
+    });
+</script>
+<script>
+    function updateTextInput(val) {
+        console.log(val);
+        document.getElementById('zoomValue').innerHTML=val;
+    }
+</script>-->
+
+    <script>
+        $(".item").resizable({
+            resize : function(event, ui) {
+                jsPlumb.repaint(ui.helper);
+            }
+        });
+
+        jsPlumb.ready(function() {
+
+
+            jsPlumb.connect({
+                source:"item_left",
+                target:"item_right",
+                endpointStyle:{ fill:"black", outlineStroke:"black", outlineWidth:1, radius:2},
+                paintStyle:{ stroke:"black", strokeWidth:1 },
+                ConnectionsDetachable   : false,
+                connector:[ "Bezier", { curviness:100 }],
+                overlays: [
+                    [ "Arrow", { location:1,width:7,height:7 }]
+                ]
+            });
+
+            jsPlumb.draggable("item_left");
+            jsPlumb.draggable("item_right");
+        });
+        $(document).ready(function() {
+            $('.drawer').drawer();
+        });
+    </script>
+
+</html>

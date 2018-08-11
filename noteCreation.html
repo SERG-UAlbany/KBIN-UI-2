@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+<head>
+    <title>Kbin | page13</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!----- boostrap css -------->
+    <!--<link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>-->
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+          crossorigin="anonymous">-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js" integrity="sha384-fA23ZRQ3G/J53mElWqVJEGJzU0sTs+SvzG8fXVWP+kJQ1lwFAOkcUOysnlKJC33U" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css" integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX" crossorigin="anonymous">
+    <script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js" integrity="sha384-CauSuKpEqAFajSpkdjv3z9t8E7RlpJ1UP0lKM/+NdtSarroVKu069AlsRPKkFBz9" crossorigin="anonymous"></script>
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet" type="text/css"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+          rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" type="text/javascript"></script>
+    <script src="tinymce/tinymce.min.js" type="text/javascript"></script>
+    <script src="tinymce/jquery.tinymce.min.js" type="text/javascript"></script>
+    <script src="tinymce/init-tinymce.js" type="text/javascript"></script>
+    <!----- custom style -------->
+    <link href="custom/style.css" rel="stylesheet" type="text/css"/>
+
+    <!----- basic js -------->
+    <!--<script src="js/jquery-1.12.3.min.js" type="text/javascript"></script>-->
+
+    <!----- boostrap js -------->
+    <!--<script src="js/bootstrap.min.js" type="text/javascript"></script>-->
+
+    <!----- angular js -------->
+    <script src="angular-js/angular.min.js" type="text/javascript"></script>
+    <script src="angular-js/angular-route.js" type="text/javascript"></script>
+    <script src="angular-js/angular-animate.min.js" type="text/javascript"></script>
+
+    <script src="main.js" type="text/javascript"></script>
+    <script src="app.js" type="text/javascript"></script>
+
+    <!-- <base href="/">-->
+    <style>
+        .navbar-default .navbar-nav.app_header li a { color: #21242C; font-size: 20px; padding: 0;}
+
+    </style>
+
+</head>
+
+<body>
+
+<!-- navbar -->
+<section class="menu">
+    <!-- Image and text -->
+    <nav class="navbar navbar-light header-color-change">
+        <div class="navbar-header">
+            <a class="navbar-brand" style="padding-right: 0.5rem;padding-left: 0.5rem;background-color:#216FB3;color: white;font-weight: bold;">
+                KF
+            </a>&nbsp; My Communities
+        </div>
+
+    <div>
+        <div class="d-none d-md-inline float-left pl-2 pr-2">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item dropdown">
+                    <button class="btn dropdown-toggle btn-navbar-dropdown mb-0 pb-1 pt-1" href="#" id="navbarDropdown" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        KB Principles
+                    </button>
+                    <div class="bg-light dropdown-menu dropdown-position-color" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item reduce-dropdown-height" href="#">Welcome</a>
+                        <a class="dropdown-item reduce-dropdown-height" href="#">KB Principles</a>
+                        <a class="dropdown-item reduce-dropdown-height" href="#">IKIT Research</a>
+                        <a class="dropdown-item reduce-dropdown-height" href="#">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fall 2016</a>
+                        <a class="dropdown-item reduce-dropdown-height" href="#">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Summer 2016</a>
+                        <a class="dropdown-item reduce-dropdown-height" href="#">MOE/LSA Research</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="d-none d-md-inline float-left pl-2 pr-2">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item dropdown">
+                    <button class="btn dropdown-toggle btn-navbar-dropdown mb-0 pb-1 pt-1" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        100%
+                    </button>
+                    <div class="bg-light dropdown-menu dropdown-menu-right ml-3 mr-4 dropdown-position-color" style="min-width: 3.0rem !important;" aria-labelledby="dropdownMenuButton">
+                        <span id="zoomValue" value=""></span>
+                        <input type="range" min="0" max="100" orient="vertical" onchange="updateTextInput(this.value)"/>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="d-none d-md-inline float-left pl-2 pr-2">
+            <form class="form-inline ">
+                <button class="btn btn-navbar-dropdown  mb-0 btn-navbar-padding pb-1 pt-1" type="button"><img src="../KBIN-UI-2/img/list1.png"></button>
+            </form>
+        </div>
+        <div class="d-none d-md-inline float-left pl-2 pr-2">
+            <form class="form-inline">
+                <button class="btn btn-navbar-dropdown btn-navbar-padding mb-0 pb-1 pt-1" type="button"><img src="../KBIN-UI-2/img/settings1.png"></button>
+            </form>
+        </div>
+    </div>
+        <a class="navbar-brand" href="#">
+            <span class="navbar-brand d-none d-md-inline" style="color:#216FB3 ;font-size: small;">Randall Wade</span>
+            <img src="../KBIN-UI-2/img/user1.png" width="30" height="30" style="border-radius: 50%;" class="d-inline-block align-top" alt="">
+        </a>
+    </nav>
+</section>
+<section class="bg-light">
+    <div class="container ml-0 pt-4">
+        <div class="row">
+            <div class="col-lg-2 col-md-4 col-sm-12 col-12">
+                <ul class="list-group">
+
+                    <a class="list-group-item listgroup-size-change active-menu-item" id="listItem1">  <!--add onclick="changeColor() while integrating-->
+                        <i class="material-icons material-icon-reduce-size">inbox</i>
+                        Note
+                    </a>
+                    <a class="list-group-item listgroup-size-change">
+                        <i class="material-icons material-icon-reduce-size">color_lens</i>
+                        Drawing
+                    </a>
+                    <a class="list-group-item listgroup-size-change">
+                        <i class="material-icons material-icon-reduce-size">attach_file</i>
+                        Attachment
+                    </a>
+                    <a class="list-group-item listgroup-size-change">
+                        <i class="material-icons material-icon-reduce-size">link</i>
+                        Link
+                    </a>
+                    <a class="list-group-item listgroup-size-change">
+                        <i class="material-icons material-icon-reduce-size">call_merge</i>
+                        Rise Above
+                    </a>
+                    <a class="list-group-item listgroup-size-change">
+                        <i class="material-icons material-icon-reduce-size">inbox</i>
+                        View
+                    </a>
+                </ul>
+            </div>
+            <div class="col-lg-10 col-md-8 col-sm-12 col-12">
+                <div class="">
+                <input  type="text" class="form-textbox-look-change"  placeholder="Please, write a title">
+                </div>
+                <div class="row pt-4    ">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-12" style="color: #03A9F4;font-size: x-small;">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SCAFFOLDS
+                </div>
+                    <div class="col-lg-3 col-md-4 col-sm-12 col-12 pr-0">
+                        <div class="dropdown">
+                            <button class="shadow-box w-100 btn btn-secondary  btn-navbar-dropdown dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Theory Building
+                            </button>
+                            <div class="w-100 dropdown-menu " aria-labelledby="dropdownMenu2">
+                                <button class="dropdown-item" type="button">Action</button>
+                                <button class="dropdown-item" type="button">Another action</button>
+                                <button class="dropdown-item" type="button">Something else here</button>
+                            </div>
+                        </div>
+                        <ul class="list-group" style="BACKGROUND-COLOR: #E1F5FE; color: #03A9F4;     height: 22.5rem;">
+                            <li class="list-group-item" style="font-size: small;">MY THEORY</li>
+                            <li class="list-group-item" style="font-size: small;">A BETTER THEORY</li>
+                            <li class="list-group-item" style="font-size: small;">NEW INFORMATION</li>
+                            <li class="list-group-item" style="font-size: small;">THIS THEORY CANNOT EXPLAIN</li>
+                            <li class="list-group-item" style="font-size: small;">PUTTING OUR KNOWLEDGE TOGETHER</li>
+                            <li class="list-group-item" style="font-size: small;">I NEED TO UNDERSTAND</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-9 col-md-8 col-sm-12 col-12 pl-1">
+                        <textarea  style="border-width: 0px !important;" class="tinymce" ></textarea>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-6 pt-3">
+                        <button type="button" class="btn  btn-info" style="background-color: transparent">CANCEL</button>
+                    </div>
+                    <div class="col-lg-8 col-md-8 col-sm-6 col-6 pt-3">
+                        <div style="float: right;">
+                        <button type="button" class="btn  btn-raised btn-yellow">CONTRIBUTE</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+</section>
+
+
+</body>
+<script>
+    function changeColor() {
+        document.getElementById('listItem1').className += ' active-menu-item';
+    }
+</script>
+
+
+</html>

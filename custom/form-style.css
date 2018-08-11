@@ -1,0 +1,59 @@
+/*.community-container {
+    width: 15%;
+    padding: 2rem;
+    margin: auto;
+    text-align: center !important;
+
+}
+*/
+
+
+/*.community-name {
+   /* box-sizing: border-box;
+    display: block
+    width: 25vw;
+    height: 3vw;
+    border-style: hidden;
+    padding: 16pt;
+    outline: 0;
+    font-family: inherit;
+    font-size: 0.95em;
+    margin-top: -4rem;
+
+} */
+
+/*
+.community-description {
+    box-sizing: border-box;
+    display: block;
+    border-style: hidden;
+    outline: 0;
+    font-family: inherit;
+    font-size: 0.95em;
+    width: 25vw;
+    height: 10vw;
+    margin-top: -2w;
+    background-color: #ffffff;
+
+
+}*/
+
+.login p {
+    margin-top: 1pt;
+    margin-bottom: 0;
+    text-align: left;
+}
+
+.btn btn-info {
+    color: #ec971f;
+    text-align: center;
+}
+
+::-webkit-input-placeholder{
+    color:#D3D3D3;
+    font-size: 1.2vw;
+}
+
+.flex-column{
+    max-width: 260px;
+}
