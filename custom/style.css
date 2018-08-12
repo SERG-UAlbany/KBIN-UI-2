@@ -436,13 +436,13 @@
 .top-left-text{
     position: absolute;
     top: 8px;
-    left: 20px;
+    left: 35px;
     color: white;
 }
 .top-right-image {
     position: absolute !important;
     top: 8px;
-    right: 16px;
+    right: 18px;
     color: white !important;
 }
 
@@ -652,4 +652,142 @@ a.reduce-dropdown-height:hover{
     top: 2rem;
     left: 6rem;
     color: white;
+}
+.timeline-image-text-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-weight: bolder;
+}
+
+.p-timeline-title{
+    font-size: 0.68rem;
+}
+
+.p-timeline-card{
+    font-size: 0.6rem;
+}
+.p-timeline-tagline{
+    font-size: 0.7rem;
+}
+.p-timeline-time{
+    font-size: 0.7rem;
+}
+.build-on-note{
+    font-size: 0.8rem;
+}
+.new-info-scaffold{
+    top:5rem;
+}
+.need-to-understand-scaffold{
+    top:29rem
+}
+@media (min-width: 576px) {
+
+    .p-timeline-title{
+        font-size: 0.7rem;
+    }
+
+    .p-timeline-card{
+        font-size: 0.7rem;
+    }
+    .p-timeline-tagline{
+        font-size: 0.85rem;
+    }
+    .p-timeline-time{
+        font-size: 0.7rem;
+    }
+    .p-timeline-tagline{
+        font-size: 0.7rem;
+    }
+    .p-timeline-time{
+        font-size: 0.7rem;
+    }
+    .build-on-note{
+        font-size: 0.95rem;
+    }
+    .new-info-scaffold{
+        top:3rem;
+    }
+    .need-to-understand-scaffold{
+        top:21rem
+    }
+}
+
+@media (min-width: 768px) {
+    .p-timeline-title{
+    font-size: 0.7rem;
+}
+
+    .p-timeline-card{
+        font-size: 0.7rem;
+    }
+    .p-timeline-tagline{
+        font-size: 0.7rem;
+    }
+    .p-timeline-time{
+        font-size: 0.7rem;
+    }
+    .build-on-note{
+        font-size: 0.95rem;
+    }
+    .new-info-scaffold{
+        top:5rem;
+    }
+    .need-to-understand-scaffold{
+        top:27rem
+    }
+}
+
+@media (min-width: 992px) {
+    .p-timeline-title{
+        font-size: 1rem;
+    }
+
+    .p-timeline-card{
+        font-size: 0.8rem;
+    }
+    .p-timeline-tagline{
+        font-size: 0.85rem;
+    }
+    .p-timeline-time{
+        font-size: 0.7rem;
+    }
+    .build-on-note{
+        font-size: 0.95rem;
+    }
+    .new-info-scaffold{
+        top:1rem;
+    }
+    .need-to-understand-scaffold{
+        top:15rem
+    }
+}
+
+@media (min-width: 1200px) {
+
+    .p-timeline-title{
+        font-size: 1rem;
+    }
+
+    .p-timeline-card{
+        font-size: 0.8rem;
+    }
+    .p-timeline-tagline{
+        font-size: 0.85rem;
+    }
+    .p-timeline-time{
+        font-size: 0.7rem;
+    }
+    .build-on-note{
+        font-size: 0.95rem;
+    }
+    .new-info-scaffold{
+        top:1rem;
+    }
+    .need-to-understand-scaffold{
+        top:13rem
+    }
 }

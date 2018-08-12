@@ -70,13 +70,13 @@ and open the template in the editor.
                     <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 col-12">
                         <ul class="list-group" >
 
-                            <a class="pl-3 list-group-item listgroup-size-change " style="color: #03A9F4;">
+                            <a href="createCommunity.html" class="pl-3 list-group-item listgroup-size-change " style="color: #03A9F4;">
                                 <i class="material-icons material-icon-reduce-size">add_circle_outline</i>
                                 Create a new community
                             </a>
                             <a class="pl-3 list-group-item listgroup-size-change" style="color: #03A9F4;">
-                                <i class="material-icons material-icon-reduce-size">color_lens</i>
-                                Join a new community
+                                <img src="../KBIN-UI-2/img/google-circles-communities.png">
+                                     Join a new community
                             </a>
                             <a class="pl-3 list-group-item listgroup-size-change">
                             </a>
@@ -140,14 +140,14 @@ and open the template in the editor.
                                 <div class="media-body">
                                     <div class="pt-2 follow-head">
                                         <div class="col-lg-8 col-md-8 col-sm-8 col-8" style="float: left;clear: right">
-                                            <p class="follow-smalltxt pl-2">
-                                                <span class="follow-link link-uppertxt">Randall wade</span>
+                                            <p class="follow-smalltxt pl-2 p-timeline-tagline">
+                                                <span class="follow-link link-uppertxt p-timeline-tagline">Randall wade</span>
                                                 added a new note to
-                                                <span class="follow-link">IntroKB-Winter2016/Welcome</span>
+                                                <span class="follow-link p-timeline-tagline">IntroKB-Winter2016/Welcome</span>
                                             </p>
                                         </div>
                                         <div class="col-lg-4 col-md-4 col-sm-4 col-4" style="float: right">
-                                            <span class="follow-smalltxt" style="float: right">
+                                            <span class="follow-smalltxt p-timeline-time" style="float: right">
                                                 10 minutes ago
                                             </span>
                                         </div>
@@ -156,8 +156,8 @@ and open the template in the editor.
                                     <div class="ml-4 mt-3  row mr-0 float-left timeline-card-layout">
                                         <div class="card col-lg-8 col-md-8 col-sm-8 col-8 pr-4 float-left" style="clear: left">
                                             <div class="pt-2">
-                                                <p class="mb-1" style="font-size: medium">Collective cognitive responsibility</p>
-                                                <p style="font-size: smaller;color: gray;" id="text1">
+                                                <p class="mb-1 p-timeline-title" style="">Collective cognitive responsibility</p>
+                                                <p style="color: gray;" class="p-timeline-card" id="text1">
                                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                                                     Integer eget elit faucibus, hendrerit.
                                                 </p>
@@ -165,8 +165,8 @@ and open the template in the editor.
                                         </div>
                                         <div class="card col-lg-4 col-md-4 col-sm-4 col-4 pl-0 pr-0" style="float: right">
                                             <img class="media-object timeline-image" src="img/view04.jpg"  alt="person1">
-                                            <div class="timeline-image-text-left">READ</div>
-                                            <div class="timeline-image-text-right">BUILD ON</div>
+                                            <div class="timeline-image-text-left p-timeline-card">READ</div>
+                                            <div class="timeline-image-text-right p-timeline-card">BUILD ON</div>
                                         </div>
                                     </div>
 
@@ -186,28 +186,30 @@ and open the template in the editor.
                                 <div class="media-body">
                                     <div class="pt-2 follow-head">
                                         <div class="col-lg-8 col-md-8 col-sm-8 col-8" style="float: left;clear: right">
-                                            <p class="follow-smalltxt pl-2">
-                                                <span class="follow-link link-uppertxt">Randall wade</span>
-                                                added a new note to
-                                                <span class="follow-link">IntroKB-Winter2016/Welcome</span>
+                                            <p class="follow-smalltxt pl-2 p-timeline-tagline">
+                                                <span class="follow-link link-uppertxt p-timeline-tagline">Knowledge Forum</span>
+                                                was updated
                                             </p>
                                         </div>
                                         <div class="col-lg-4 col-md-4 col-sm-4 col-4" style="float: right">
-                                            <span class="follow-smalltxt" style="float: right">
-                                                10 minutes ago
+                                            <span class="follow-smalltxt p-timeline-time" style="float: right">
+                                                1 hour ago
                                             </span>
                                         </div>
                                     </div>
 
-                                    <div class="col-lg-12 ml-2 mt-3  row mr-0 float-left" style="height: 7rem">
-                                        <div class="card bg-primary col-lg-10 col-md-10 col-sm-10 col-10 pr-0 mr-0">
+                                    <div class="col-lg-12 ml-2 mt-2  row mr-0 float-left" style="height: 7rem">
+                                        <div class="card col-lg-10 col-md-10 col-sm-10 col-10 pr-0 mr-0" style="background-color:#03A9F4;color:white">
                                             <div class="card-body pl-0 pr-0" style="padding-top: 10px;padding-bottom: 10px">
-                                                <p class="card-title">Card title</p>
-                                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                                <p class="card-title p-timeline-title">KF 7.2 now supports virtual reality and more</p>
+                                                <ul>
+                                                <li class="card-text p-timeline-card">Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+                                                    <li class="card-text p-timeline-card">Lorem Integer eget elit faucibus</li>
+                                                </ul>
                                             </div>
                                         </div>
-                                        <div class="card col-lg-2 col-md-2 col-sm-2 col-2 pl-0 pr-0" style="float: right;    background-color: #02A0E7;">
-                                            ABC
+                                        <div class="card col-lg-2 col-md-2 col-sm-2 col-2 pl-0 pr-0" style="float: right;    background-color: #02A0E7;color:white">
+                                            <p class="timeline-image-text-center p-timeline-card">LEARN MORE</p>
                                         </div>
                                     </div>
 
@@ -225,17 +227,17 @@ and open the template in the editor.
                                     </div>
                                 </div>
                                 <div class="media-body">
-                                    <div class="pt-2 follow-head">
+                                    <div class="pt-4 follow-head">
                                         <div class="col-lg-8 col-md-8 col-sm-8 col-8" style="float: left;clear: right">
-                                            <p class="follow-smalltxt pl-2">
-                                                <span class="follow-link link-uppertxt">Randall wade</span>
-                                                added a new note to
-                                                <span class="follow-link">IntroKB-Winter2016/Welcome</span>
+                                            <p class="follow-smalltxt pl-2 p-timeline-tagline">
+                                                <span class="follow-link link-uppertxt p-timeline-tagline">Michael sun</span>
+                                                build a note on
+                                                <span class="follow-link p-timeline-tagline">KBSI2016/Presentations</span>
                                             </p>
                                         </div>
                                         <div class="col-lg-4 col-md-4 col-sm-4 col-4" style="float: right">
-                                            <span class="follow-smalltxt" style="float: right">
-                                                10 minutes ago
+                                            <span class="follow-smalltxt p-timeline-time" style="float: right">
+                                                Yesterday
                                             </span>
                                         </div>
                                     </div>
@@ -243,8 +245,8 @@ and open the template in the editor.
                                     <div class="ml-4 mt-3 row mr-0 float-left timeline-card-layout" >
                                         <div class="card col-lg-8 col-md-8 col-sm-8 col-8 pr-4 float-left" style="clear: left">
                                             <div class="pt-2">
-                                                <p class="mb-1" style="font-size: medium">Collective cognitive responsibility</p>
-                                                <p style="font-size: smaller;color: gray;">
+                                                <p class="mb-1 p-timeline-title" style="">Reflecting on New Challenges for KB</p>
+                                                <p style="color: gray;" class="p-timeline-card">
                                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                                                     Integer eget elit faucibus, hendrerit.
                                                 </p>
@@ -252,8 +254,8 @@ and open the template in the editor.
                                         </div>
                                         <div class="card col-lg-4 col-md-4 col-sm-4 col-4 pl-0 pr-0" style="float: right">
                                             <img class="media-object timeline-image" src="img/view04.jpg"  alt="person1">
-                                            <div class="timeline-image-text-left">READ</div>
-                                            <div class="timeline-image-text-right">BUILD ON</div>
+                                            <div class="timeline-image-text-left p-timeline-card">READ</div>
+                                            <div class="timeline-image-text-right p-timeline-card">BUILD ON</div>
                                         </div>
                                     </div>
 
@@ -271,15 +273,15 @@ and open the template in the editor.
                                 <div class="media-body">
                                     <div class="pt-2 follow-head">
                                         <div class="col-lg-8 col-md-8 col-sm-8 col-8" style="float: left;clear: right">
-                                            <p class="follow-smalltxt pl-2">
-                                                <span class="follow-link link-uppertxt">Randall wade</span>
+                                            <p class="follow-smalltxt pl-2 p-timeline-tagline">
+                                                <span class="follow-link link-uppertxt p-timeline-tagline">Janet Smith</span>
                                                 added a new note to
-                                                <span class="follow-link">IntroKB-Winter2016/Welcome</span>
+                                                <span class="follow-link p-timeline-tagline">CTL1926/Principles</span>
                                             </p>
                                         </div>
                                         <div class="col-lg-4 col-md-4 col-sm-4 col-4" style="float: right">
-                                            <span class="follow-smalltxt" style="float: right">
-                                                10 minutes ago
+                                            <span class="follow-smalltxt p-timeline-time" style="float: right">
+                                                Yesterday
                                             </span>
                                         </div>
                                     </div>
@@ -287,8 +289,8 @@ and open the template in the editor.
                                     <div class="ml-4 mt-3 row mr-0 float-left timeline-card-layout">
                                         <div class="card col-lg-8 col-md-8 col-sm-8 col-8 pr-4 float-left" style="clear: left">
                                             <div class="pt-2">
-                                                <p class="mb-1" style="font-size: medium">Collective cognitive responsibility</p>
-                                                <p style="font-size: smaller;color: gray;" >
+                                                <p class="mb-1 p-timeline-title" style="">Exploring new designs</p>
+                                                <p style="color: gray;" class="p-timeline-card" >
                                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                                                     Integer eget elit faucibus, hendrerit.
                                                 </p>
@@ -296,8 +298,8 @@ and open the template in the editor.
                                         </div>
                                         <div class="card col-lg-4 col-md-4 col-sm-4 col-4 pl-0 pr-0" style="float: right">
                                             <img class="media-object timeline-image" src="img/view04.jpg"  alt="person1">
-                                            <div class="timeline-image-text-left">READ</div>
-                                            <div class="timeline-image-text-right">BUILD ON</div>
+                                            <div class="timeline-image-text-left p-timeline-card">READ</div>
+                                            <div class="timeline-image-text-right p-timeline-card">BUILD ON</div>
                                         </div>
                                     </div>
 
